@@ -2,10 +2,10 @@ trigger:
 - master
 
 variables:
-    azureSubscription: 8c3bd745-5ec6-46f3-9b52-a455b309bdd7
-    webAppName: mingyuwa
-    environmentName: mingyuwa
-    rgName: TestRG02
+    azureSubscription: 'Visual Studio Enterprise 2'
+    webAppName: 'minwa2020'
+    environmentName: 'minwa2020'
+    rgName: 'TestRG02'
     vmImageName: 'ubuntu-latest'
 
 stages:
