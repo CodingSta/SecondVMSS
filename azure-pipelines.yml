@@ -4,8 +4,8 @@ trigger:
 
 variables:
     azureSubscription: 'Visual Studio Enterprise 2'
-    webAppName: 'minwa2020'
-    environmentName: 'minwa2020'
+    webAppName: 'minwa2021'
+    environmentName: 'minwa2021'
     rgName: 'TestRG02'
     vmImageName: 'ubuntu-latest'
 
