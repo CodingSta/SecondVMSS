@@ -11,6 +11,7 @@ app.get('/start', function(req, res){
     res.send('start page!!');
 });
 
-server.listen(443, '127.0.0.1', function(){
+const port = process.env.PORT || 1337;
+server.listen(port, function(){
     console.log('Server listen on port!'+ server.address().port);
 });
